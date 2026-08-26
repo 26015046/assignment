@@ -24,12 +24,12 @@ public class Products {
         System.out.println("(5) Print report.");
         System.out.println("(6) Exit Application.");
         int menuSelection = 0;
-        System.out.print("choice >> ");
+        System.out.print("menuSelection >> ");
         while(true){
             menuSelection = input.nextInt();
             input.nextLine();
             if(!(menuSelection > 0 && menuSelection < 7)){
-                System.out.print("Choice must be between 1 and 6"); 
+                System.out.print("menuSelection must be between 1 and 6"); 
                 continue;
             }
             System.out.println("");
