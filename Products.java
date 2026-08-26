@@ -216,7 +216,7 @@ public class Products {
                     break;
                 }
                 else if(warr == 'n'){
-                    System.out.println("It won't be changed then");//u shandukisa mulaedza uri u vhe more user friendly
+                    System.out.println("warranty remains the same ");
                     break;
                 }
                 else{
@@ -245,7 +245,7 @@ public class Products {
                     break;
                 }
                 else if(cost == 'n'){
-                    System.out.println("Okay, Moving on");//u shandukisa mulaedza uri uvhe more user friendly
+                    System.out.println("price remains the same ");
                     break;
                 }
                 else{
@@ -272,7 +272,7 @@ public class Products {
                         input.nextLine();
                         
                         if(st >= 0){
-                            storeItems[i].setStockLevels(st);//u shandukisa  stock level
+                            storeItems[i].setStockLevels(st);//i shandukisa  stock level
                             break; 
                         }
                         else{
