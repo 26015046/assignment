@@ -8,6 +8,11 @@ package com.mycompany.main;
  *
  * @author adivh
  */
+/*Name :Vele Adivhaho
+*student number :26015046
+*Module :Com1321
+*Assignment :1
+*/
 import java.util.Scanner;
 public class Main {
 
