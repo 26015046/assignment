@@ -18,14 +18,14 @@ public class Main {
 
     public static void main(String[] args) {
         
-        Scanner s = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         
         System.out.println("BRIGHT FUTURE TECHNOLOGIES APPLICATION");
         System.out.println("**************************************");
         while (true) {
         System.out.println("");
         System.out.print("Enter (1) to launch menu or any other key to exit ");
-        String value = s.nextLine();
+        String value = input.nextLine();
         System.out.println("");
         if("1".equals(value.trim())){
             int menuSelection = Products.DisplayMenu();
